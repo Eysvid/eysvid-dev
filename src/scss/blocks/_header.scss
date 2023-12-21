@@ -26,14 +26,14 @@
 	z-index: 1;
 	color: var(--text-color);
 	font-family: var(--font-assist);
-	font-size: clamp(68px, 1.536rem + 13.57vw, 220px);
+	font-size: clamp(80px, 1.818rem + 15.91vw, 220px);
 }
 
 .header__title span:nth-child(2) {
 	position: absolute;
 	top: 75%; 
 	left: 70%; 
-	font-size: clamp(20px, 0.679rem + 2.86vw, 52px);
+	font-size: clamp(24px, 0.786rem + 3.57vw, 64px);
 	color: var(--accent);
 	transform: translateX(-50%); 
 	animation: fadeIn 8s ease;
