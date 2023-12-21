@@ -1,0 +1,41 @@
+<section class="home">
+    <div class="container">
+        <div class="home__content">
+            <div class="home__avatar">
+                <img src="./img/header/avatar.jpg" alt="avatar">
+            </div>
+            <div class="home__title">
+                <h1>Welcome to my website, where web development becomes a reality!</h1>
+            </div>
+            <div class="home__subtitle">
+                <p>I am a Web Developer with over 
+                    2 years of professional experience.</p>
+            </div>
+            <div class="home__skils">
+                <span>EXPERIENCE WITH</span>
+                <div class="home__img">
+                    <img src="./img/experience/html.svg" alt="html">
+                    <img src="./img/experience/css.svg" alt="css">
+                    <img src="./img/experience/js.svg" alt="js">
+                    <img src="./img/experience/reactjs.svg" alt="react">
+                </div>
+            </div>
+            <div class="home__projects">
+                <span>Projects</span>
+                <div class="home__slider">
+                    <button class="home__slider-btn" id="slider-left">
+                        <img src="./img/slider/slider-left.svg" alt="prev">
+                    </button>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            @@loop('./../cards/home-card.html', './data/projects.json')
+                        </div>
+                    </div>
+                    <button class="home__slider-btn" id="slider-right">
+                        <img src="./img/slider/slider-right.svg" alt="next">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

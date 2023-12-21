@@ -5,25 +5,31 @@
 }
 
 @mixin mediaTablet {
-	@media (max-width: 1023px) {
+	@media (max-width: 1024px) {
         @content;
     }
 }
 
 @mixin mediaMobile {
-	@media (max-width: 767px) {
+	@media (max-width: 768px) {
         @content;
     }
 }
 
 @mixin mediaMobileS {
-	@media (max-width: 475px) {
+	@media (max-width: 426px) {
         @content;
     }
 }
 
 @mixin mediaMobileXS {
-	@media (max-width: 374px) {
+	@media (max-width: 376px) {
+        @content;
+    }
+}
+
+@mixin mediaMobileXXS {
+	@media (max-width: 320px) {
         @content;
     }
 }
