@@ -1,6 +1,6 @@
 .footer {
     background-color: var(--footer-bg);
-    padding: 80px 0;
+    padding: clamp(16px, -0.143rem + 5.71vw, 80px) 0;
 }
 
 .footer__wrapper {

@@ -1,5 +1,5 @@
 .home {
-    padding: 107px 0px;
+    padding: clamp(16px, -0.607rem + 8.04vw, 106px) 0px;
 }
 
 .home__content {
