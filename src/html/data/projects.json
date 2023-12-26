@@ -1,27 +1,26 @@
 [
     {
         "link": "Panto",
-        "img": "panto.jpg",
-        "title": "Panto"
+        "img": "panto.jpg"
     },
     {
         "link": "travel-x",
-        "img": "travel-x.jpg",
-        "title": "Travel-x"
+        "img": "travel-x.jpg"
     },
     {
         "link": "travel-agent",
-        "img": "travel-agent.jpg",
-        "title": "Travel-agent"
+        "img": "travel-agent.jpg"
+    },
+    {
+        "link": "2rism",
+        "img": "2rism.jpg"
     },
     {
         "link": "LoftHouse",
-        "img": "lofthouse.jpg",
-        "title": "LoftHouse"
+        "img": "lofthouse.jpg"
     },
     {
         "link": "lato",
-        "img": "alivio.jpg",
-        "title": "Alivio"
+        "img": "alivio.jpg"
     }
 ]
