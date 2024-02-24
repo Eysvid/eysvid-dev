@@ -62,7 +62,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 
-@media (hover: hover) {
+@include mediaHover {
   .btn-github:hover,
   .btn-instagram:hover {
     width: 110px;
@@ -77,23 +77,5 @@
   .btn-github:hover .svgIcon,
   .btn-instagram:hover .svgIcon {
     opacity: 0;
-  }
-}
-
-@media (hover: none) {
-  .btn-github,
-  .btn-instagram {
-    width: 45px;
-    border-radius: 50%;
-  }
-
-  .btn-github .text,
-  .btn-instagram .text {
-    opacity: 0;
-  }
-
-  .btn-github .svgIcon,
-  .btn-instagram .svgIcon {
-    opacity: 1;
   }
 }

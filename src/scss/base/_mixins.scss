@@ -22,6 +22,12 @@
   }
 }
 
+@mixin mediaHover {
+  @media (hover: hover) {
+    @content;
+  }
+}
+
 @mixin mediaLaptop {
   @media (max-width: 1439px) {
     @content;
