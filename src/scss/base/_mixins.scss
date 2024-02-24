@@ -1,35 +1,59 @@
-@mixin mediaLaptop {
-	@media (max-width: 1439px) {
-        @content;
+@mixin custemTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+
+  & h2 {
+    font-family: var(--font-assist);
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 36px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #86cdf7 0%, #35aff4 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @include mediaMobileS {
+      text-align: center;
     }
+  }
+}
+
+@mixin mediaLaptop {
+  @media (max-width: 1439px) {
+    @content;
+  }
 }
 
 @mixin mediaTablet {
-	@media (max-width: 1024px) {
-        @content;
-    }
+  @media (max-width: 1024px) {
+    @content;
+  }
 }
 
 @mixin mediaMobile {
-	@media (max-width: 768px) {
-        @content;
-    }
+  @media (max-width: 768px) {
+    @content;
+  }
 }
 
 @mixin mediaMobileS {
-	@media (max-width: 426px) {
-        @content;
-    }
+  @media (max-width: 426px) {
+    @content;
+  }
 }
 
 @mixin mediaMobileXS {
-	@media (max-width: 376px) {
-        @content;
-    }
+  @media (max-width: 376px) {
+    @content;
+  }
 }
 
 @mixin mediaMobileXXS {
-	@media (max-width: 320px) {
-        @content;
-    }
+  @media (max-width: 320px) {
+    @content;
+  }
 }
