@@ -1,6 +1,5 @@
 import ScrollReveal from 'scrollreveal';
 
-// Базовые настройки
 ScrollReveal({
   distance: '100px',
   duration: 2500,
@@ -25,13 +24,6 @@ function scrollRevealFunc() {
       origin: 'left',
     }
   );
-
-  // ScrollReveal().reveal(
-  //   `.home__subtitle, .home__block-item--right, .footer__email`,
-  //   {
-  //     origin: 'right',
-  //   }
-  // );
 
   ScrollReveal().reveal(`.home__skils,  .home__block--bottom`, {
     origin: 'bottom',
