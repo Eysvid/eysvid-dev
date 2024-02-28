@@ -1,5 +1,6 @@
+.btn-instagram,
 .btn-github,
-.btn-instagram {
+.btn-telegram {
   border-radius: 50%;
   width: 45px;
   height: 45px;
@@ -10,27 +11,6 @@
   cursor: pointer;
   position: relative;
   overflow: hidden;
-}
-
-.svgIcon {
-  transition-duration: 0.3s;
-}
-
-.svgIcon path {
-  fill: white;
-}
-
-.text {
-  position: absolute;
-  color: rgb(255, 255, 255);
-  width: 120px;
-  font-weight: 600;
-  opacity: 0;
-  transition-duration: 0.4s;
-}
-
-.btn-github {
-  background-color: rgb(31, 31, 31);
 }
 
 .btn-instagram {
@@ -59,23 +39,51 @@
     #cc2366 75%,
     #bc1888 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
 }
 
-@include mediaHover {
+.btn-github {
+  background-color: rgb(31, 31, 31);
+}
+
+.btn-telegram {
+  background: #08c;
+}
+
+.svgIcon {
+  transition-duration: 0.3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+.text {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  width: 120px;
+  font-weight: 600;
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+
+@media (hover: hover) {
+  .btn-instagram:hover,
   .btn-github:hover,
-  .btn-instagram:hover {
+  .btn-telegram:hover {
     width: 110px;
     border-radius: 30px;
   }
 
+  .btn-instagram:hover .text,
   .btn-github:hover .text,
-  .btn-instagram:hover .text {
+  .btn-telegram:hover .text {
     opacity: 1;
   }
 
+  .btn-instagram:hover .svgIcon,
   .btn-github:hover .svgIcon,
-  .btn-instagram:hover .svgIcon {
+  .btn-telegram:hover .svgIcon {
     opacity: 0;
   }
 }
