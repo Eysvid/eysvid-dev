@@ -1,26 +1,26 @@
 [
-    {
-        "link": "Panto",
-        "img": "panto.jpg"
-    },
-    {
-        "link": "travel-x",
-        "img": "travel-x.jpg"
-    },
-    {
-        "link": "travel-agent",
-        "img": "travel-agent.jpg"
-    },
-    {
-        "link": "2rism",
-        "img": "2rism.jpg"
-    },
-    {
-        "link": "LoftHouse",
-        "img": "lofthouse.jpg"
-    },
-    {
-        "link": "lato",
-        "img": "alivio.jpg"
-    }
+  {
+    "link": "https://eysvid.github.io/Panto",
+    "img": "panto.jpg"
+  },
+  {
+    "link": "https://eysvid.github.io/travel-x",
+    "img": "travel-x.jpg"
+  },
+  {
+    "link": "https://eysvid.github.io/travel-agent",
+    "img": "travel-agent.jpg"
+  },
+  {
+    "link": "https://eysvid.github.io/2rism",
+    "img": "2rism.jpg"
+  },
+  {
+    "link": "https://eysvid.github.io/LoftHouse",
+    "img": "lofthouse.jpg"
+  },
+  {
+    "link": "https://eysvid.github.io/lato",
+    "img": "alivio.jpg"
+  }
 ]

@@ -2,14 +2,17 @@ import ScrollReveal from 'scrollreveal';
 
 ScrollReveal({
   distance: '100px',
-  duration: 2500,
+  duration: 3000,
 });
 
 function scrollRevealFunc() {
-  ScrollReveal().reveal(`.home__projects, .block--visible, .footer__socials`, {
-    distance: '0px',
-    opacity: 0,
-  });
+  ScrollReveal().reveal(
+    `.home__projects, .block--visible, .home__video-src, .footer__socials`,
+    {
+      distance: '0px',
+      opacity: 0,
+    }
+  );
 
   ScrollReveal().reveal(
     `.home__avatar, .discover__picture-hint, .footer__title`,
