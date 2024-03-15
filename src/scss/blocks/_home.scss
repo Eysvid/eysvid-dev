@@ -32,26 +32,29 @@
     position: absolute;
     content: url('./../img/underline.svg');
     bottom: -45px;
-    right: 105px;
+
+    @include ultraHD {
+      right: 100px;
+    }
+
+    @include mediaLaptop {
+      right: 80px;
+    }
 
     @include mediaTablet {
-      right: 50px;
+      right: 120px;
     }
 
     @include mediaMobile {
-      right: 110px;
+      right: 120px;
     }
 
     @include mediaMobileS {
-      right: 45px;
-    }
-
-    @include mediaMobileXS {
       right: 40px;
     }
 
-    @include mediaMobileXXS {
-      right: 10px;
+    @include mediaMobileXS {
+      right: 20px;
     }
   }
 }
