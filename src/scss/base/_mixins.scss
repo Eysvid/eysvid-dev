@@ -41,25 +41,25 @@
 }
 
 @mixin mediaMobile {
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     @content;
   }
 }
 
 @mixin mediaMobileS {
-  @media (max-width: 426px) {
+  @media (max-width: 425px) {
     @content;
   }
 }
 
 @mixin mediaMobileXS {
-  @media (max-width: 376px) {
+  @media (max-width: 375px) {
     @content;
   }
 }
 
 @mixin mediaMobileXXS {
-  @media (max-width: 320px) {
+  @media (max-width: 319px) {
     @content;
   }
 }

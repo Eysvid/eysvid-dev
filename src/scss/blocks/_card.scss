@@ -9,29 +9,28 @@
 
   @include mediaLaptop {
     width: 90%;
-    height: 500px;
+    height: 460px;
     margin-left: 15px;
   }
 
   @include mediaMobile {
-    width: 90%;
-    height: 485px;
-    margin-left: 20px;
+    width: 95%;
+    height: 500px;
+    margin-left: 10px;
   }
 
   @include mediaMobileS {
-    width: 80%;
-    height: 450px;
-    margin-left: 35px;
+    width: 95%;
+    height: 430px;
+    margin-left: 6px;
   }
 
   @include mediaMobileXS {
-    width: 90%;
-    height: 340px;
-    margin-left: 12px;
+    width: 95%;
+    height: 350px;
+    margin-left: 6px;
   }
 }
-
 .card__link {
   height: 98%;
   width: 96%;
