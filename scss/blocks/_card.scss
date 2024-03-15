@@ -1,0 +1,85 @@
+.card {
+  height: 410px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 20px;
+
+  @include mediaLaptop {
+    width: 90%;
+    height: 500px;
+    margin-left: 15px;
+  }
+
+  @include mediaMobile {
+    width: 90%;
+    height: 485px;
+    margin-left: 20px;
+  }
+
+  @include mediaMobileS {
+    width: 80%;
+    height: 450px;
+    margin-left: 35px;
+  }
+
+  @include mediaMobileXS {
+    width: 85%;
+    height: 380px;
+    margin-left: 20px;
+  }
+}
+
+.card__link {
+  height: 98%;
+  width: 96%;
+  overflow: hidden;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+  z-index: 999;
+
+  @include mediaHover {
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  @include mediaMobileXXS {
+    height: 95%;
+  }
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  background-image: linear-gradient(
+    180deg,
+    rgb(0, 183, 255),
+    rgb(255, 48, 255)
+  );
+  height: 130%;
+  animation: rotBGimg 3s linear infinite;
+  transition: all 0.2s linear;
+  z-index: -1;
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  background: transparent;
+  inset: 5px;
+  border-radius: 15px;
+}
