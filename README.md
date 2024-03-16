@@ -1,1 +1,1 @@
-![promo_gif](https://github.com/Eysvid/eysvid.ru/assets/111803923/d7db69bc-8e3c-4b8e-991b-78668454d572)
+![Eysvid Development - gif](https://github.com/Eysvid/eysvid/assets/111803923/8fb9e78a-6abf-475f-b39a-90d4c4fe99b0)
