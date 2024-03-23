@@ -1,12 +1,12 @@
 .home {
-  padding: clamp(16px, -0.607rem + 8.04vw, 106px) 0px;
+  padding: clamp(16px, 5vw, 60px) 0px;
 }
 
 .home__content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 .home__avatar {
@@ -15,7 +15,7 @@
   border-radius: 50%;
   overflow: hidden;
   flex-shrink: 0;
-  margin-bottom: 42px;
+  margin-bottom: 60px;
 }
 
 .home__title {
@@ -116,21 +116,9 @@
 
       @include mediaHover {
         &:hover {
-          animation: hoverAnimation 1s infinite;
+          animation: bounce 1s infinite;
         }
       }
-    }
-  }
-
-  @keyframes hoverAnimation {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-5px);
-    }
-    100% {
-      transform: translateY(0);
     }
   }
 
