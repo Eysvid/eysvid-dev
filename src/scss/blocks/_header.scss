@@ -21,7 +21,7 @@
 
 .header__title {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -58,8 +58,8 @@
     clamp(50px, 0.852rem + 11.36vw, 150px);
   animation: fadeIn 10s ease;
 
-  @include mediaTablet {
-    top: 90%;
+  @include mediaMobile {
+    top: 78%;
   }
 }
 
@@ -105,9 +105,9 @@
   animation: bounce 1s infinite;
 
   @include mediaLaptop {
-    width: 40px;
-    height: 40px;
-    bottom: -50px;
+    width: 35px;
+    height: 35px;
+    bottom: -46px;
   }
 
   @include mediaTablet {
