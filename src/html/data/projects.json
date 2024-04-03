@@ -4,16 +4,20 @@
     "img": "2rism.jpg"
   },
   {
+    "link": "https://eysvid.github.io/portfolio-react",
+    "img": "portfolio-react.jpg"
+  },
+  {
     "link": "https://eysvid.github.io/Panto",
     "img": "panto.jpg"
   },
   {
-    "link": "https://eysvid.github.io/travel-agent",
-    "img": "travel-agent.jpg"
-  },
-  {
     "link": "https://eysvid.github.io/LoftHouse",
     "img": "lofthouse.jpg"
+  },
+  {
+    "link": "https://eysvid.github.io/travel-agent",
+    "img": "travel-agent.jpg"
   },
   {
     "link": "https://eysvid.github.io/travel-x",
