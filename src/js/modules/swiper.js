@@ -17,7 +17,7 @@ function swiperFunc() {
       },
       1024: {
         slidesPerView: 3,
-        spaceBetween: 35,
+        spaceBetween: 30,
       },
       1410: {
         slidesPerView: 4,
